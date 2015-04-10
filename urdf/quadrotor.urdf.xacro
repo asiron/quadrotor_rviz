@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<robot name="quadrotor" xmlns:xacro="http://ros.org/wiki/xacro">
+    <!-- Included URDF Files -->
+    <include filename="$(find quadrotor_rviz)/urdf/quadrotor_base.urdf.xacro" />
+    <quadrotor_base_macro />
+</robot>
